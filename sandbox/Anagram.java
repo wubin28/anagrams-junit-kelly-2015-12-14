@@ -4,6 +4,6 @@ import java.util.Arrays;
 
 public class Anagram {
     List<String> generate(String string) {
-        return Arrays.asList(string,"ba");
+        return Arrays.asList(string,string.subString(1) + string.subString(0, 1));
     }
 }
