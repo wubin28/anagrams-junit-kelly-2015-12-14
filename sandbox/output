@@ -1,6 +1,4 @@
-AnagramTest.java:19: error: cannot find symbol
-        assertEquals("a", anagram.generate("a"));
-                                 ^
-  symbol:   method generate(String)
-  location: variable anagram of type Anagram
+Anagram.java:9: error: missing return statement
+    }
+    ^
 1 error
