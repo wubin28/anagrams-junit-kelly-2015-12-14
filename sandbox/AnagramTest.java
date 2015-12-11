@@ -31,6 +31,15 @@ public class AnagramTest {
         // Given
         Anagram anagram = new Anagram();
 
-        // When & Then
+        // When
+        List<String> result = anagram.generate("abc");
+
+        //Then
+        assertTrue(result.contains("abc"));
+        assertTrue(result.contains("acb"));
+        assertTrue(result.contains("bac"));
+        assertTrue(result.contains("bca"));
+        assertTrue(result.contains("cab"));
+        assertTrue(result.contains("cba"));
     }
 }
