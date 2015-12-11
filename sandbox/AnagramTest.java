@@ -9,11 +9,11 @@ public class AnagramTest {
         Anagram anagram = new Anagram();
 
         // When & Then
-        assertEquals("a", anagram.generate("a"));
+        assertEquals("a", anagram.generate("a").contains("a"));
     }
 
 
-    @Test
+    @Test @Ignore
     public void the_anagram_of_a_two_letter_word_should_be_two_words() {
         // Given
         Anagram anagram = new Anagram();
