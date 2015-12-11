@@ -1,6 +1,11 @@
-JUnit version 4.11-SNAPSHOT-20120416-1530
-I.
-Time: 0.026
-
-OK (1 test)
-
+Anagram.java:3: error: cannot find symbol
+    List<String> generate(String string) {
+    ^
+  symbol:   class List
+  location: class Anagram
+Anagram.java:4: error: cannot find symbol
+        return new ArrayList<String>(string);
+                   ^
+  symbol:   class ArrayList
+  location: class Anagram
+2 errors

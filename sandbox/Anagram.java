@@ -1,6 +1,6 @@
 
 public class Anagram {
-    String generate(String string) {
-        return string;
+    List<String> generate(String string) {
+        return new ArrayList<String>(string);
     }
 }
