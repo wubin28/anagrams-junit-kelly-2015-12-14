@@ -1,4 +1,6 @@
-Anagram.java:9: error: missing return statement
-    }
-    ^
+AnagramTest.java:9: error: cannot find symbol
+        int actual = Anagram.answer();
+                            ^
+  symbol:   method answer()
+  location: class Anagram
 1 error
