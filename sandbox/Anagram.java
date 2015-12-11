@@ -4,7 +4,7 @@ import java.util.Arrays;
 
 public class Anagram {
     List<String> generate(String string) {
-        return Arrays.asList(string, string.substring(1, 2) + 
+        return Arrays.asList(string, string.substring(1) + 
                              string.substring(0, 1));
     }
 }
