@@ -19,8 +19,8 @@ public class AnagramTest {
         Anagram anagram = new Anagram();
 
         // When & Then
-        assertEquals(ture,anagram.generate("ab").contains("ab"));
-       assertEquals(ture,anagram.generate("ab").contains("ba"));
+        assertEquals(true,anagram.generate("ab").contains("ab"));
+        assertEquals(true,anagram.generate("ab").contains("ba"));
 
 
     }
