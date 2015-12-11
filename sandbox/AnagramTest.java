@@ -26,7 +26,7 @@ public class AnagramTest {
         assertTrue(result.contains("ba"));
     }
 
-    @Test @Ignore
+    @Test
     public void the_anagram_of_a_three_letter_word_should_be_six_words() {
         // Given
         Anagram anagram = new Anagram();
