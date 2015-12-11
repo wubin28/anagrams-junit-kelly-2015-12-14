@@ -1,4 +1,6 @@
-AnagramTest.java:16: error: ')' expected
-        assertEquals("a", anagram.generate("a");
-                                               ^
+AnagramTest.java:16: error: cannot find symbol
+        assertEquals("a", anagram.generate("a"));
+                          ^
+  symbol:   variable anagram
+  location: class AnagramTest
 1 error
