@@ -1,9 +1,13 @@
-Anagram.java:6: error: no suitable constructor found for ArrayList(String)
-        return new ArrayList<String>(string);
-               ^
-    constructor ArrayList.ArrayList(int) is not applicable
-      (argument mismatch; String cannot be converted to int)
-    constructor ArrayList.ArrayList(Collection<? extends String>) is not applicable
-      (argument mismatch; String cannot be converted to Collection<? extends String>)
-Note: Some messages have been simplified; recompile with -Xdiags:verbose to get full output
-1 error
+Anagram.java:6: error: illegal start of expression
+        return Arrays.asList({string});
+                             ^
+Anagram.java:6: error: ';' expected
+        return Arrays.asList({string});
+                              ^
+Anagram.java:6: error: illegal start of type
+        return Arrays.asList({string});
+                                     ^
+Anagram.java:8: error: class, interface, or enum expected
+}
+^
+4 errors
