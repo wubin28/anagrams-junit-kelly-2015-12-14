@@ -1,13 +1,6 @@
-Anagram.java:6: error: illegal start of expression
-        return Arrays.asList({string});
-                             ^
-Anagram.java:6: error: ';' expected
-        return Arrays.asList({string});
-                              ^
-Anagram.java:6: error: illegal start of type
-        return Arrays.asList({string});
-                                     ^
-Anagram.java:8: error: class, interface, or enum expected
-}
-^
-4 errors
+Anagram.java:6: error: cannot find symbol
+        return Arrays.asList(string);
+               ^
+  symbol:   variable Arrays
+  location: class Anagram
+1 error
