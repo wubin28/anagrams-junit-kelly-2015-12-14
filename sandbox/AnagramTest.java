@@ -21,8 +21,5 @@ public class AnagramTest {
         // When & Then
         assertTrue(anagram.generate("ab").contains("ab"));
         assertTrue(anagram.generate("ab").contains("ba"));
-
-
     }
-
 }
