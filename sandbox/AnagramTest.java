@@ -9,7 +9,7 @@ public class AnagramTest {
         Anagram anagram = new Anagram();
 
         // When & Then
-        assertEquals("a", anagram.generate("a").contains("a"));
+        assertTrue(anagram.generate("a").contains("a"));
     }
 
 
