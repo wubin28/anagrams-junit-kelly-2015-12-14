@@ -9,4 +9,10 @@ public class AnagramTest {
         int actual = Anagram.answer();
         assertEquals(expected, actual);
     }
+
+    @Test
+    public void the_anagram_of_a_one_letter_word_should_be_itself() {
+        // Then
+        assertEquals("a", anagram.generate("a");
+    }
 }

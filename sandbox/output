@@ -1,6 +1,4 @@
-JUnit version 4.11-SNAPSHOT-20120416-1530
-.
-Time: 0.027
-
-OK (1 test)
-
+AnagramTest.java:16: error: ')' expected
+        assertEquals("a", anagram.generate("a");
+                                               ^
+1 error
