@@ -28,13 +28,15 @@ public class Anagram {
 
     private static String dropCharacter(String s, int index) {
         String after = s.substring(index + 1, s.length());
+        String before = s.substring(0, index);
+
         if (index == 0) {
             return after;
         }
         if (index == 1) {
-            return s.substring(0, index) + after;
+            return before + after;
         }
-        return s.substring(0, index);
+        return before;
     }
 
    
