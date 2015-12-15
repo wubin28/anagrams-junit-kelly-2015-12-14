@@ -30,13 +30,7 @@ public class Anagram {
         String after = s.substring(index + 1, s.length());
         String before = s.substring(0, index);
 
-        if (index == 0) {
-            return after;
-        }
-        if (index == 1) {
-            return before + after;
-        }
-        return before;
+        return before + after;
     }
 
    
