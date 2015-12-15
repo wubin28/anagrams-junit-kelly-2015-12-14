@@ -4,10 +4,6 @@ import java.util.Arrays;
 
 public class Anagrams {
     public static List<String> of(String s) {
-        if (s.length() == 1) {
-            return Arrays.asList(s);
-        }
-
         List<String> anagrams = new ArrayList<String>();
 
         for (int i = 0; i < s.length(); i++) {
