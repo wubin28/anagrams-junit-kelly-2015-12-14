@@ -12,7 +12,7 @@ public class Anagram {
                              s.substring(1) + s.substring(0, 1));
         }
         return Arrays.asList("a" + Anagram.of("bc").get(0), 
-                             "a" + Anagram.of("bc").get(0), 
+                             "a" + Anagram.of("bc").get(1), 
                              "b" + "ac", 
                              "b" + "ca", 
                              "c" + "ab", 
