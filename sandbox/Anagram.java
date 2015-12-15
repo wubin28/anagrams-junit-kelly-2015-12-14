@@ -28,7 +28,7 @@ public class Anagram {
 
     private static String dropCharacter(String s, int index) {
         if (index == 0) {
-            return s.substring(1, 2);
+            return s.substring(1, 3);
         }
         if (index == 1) {
             return "ac";
