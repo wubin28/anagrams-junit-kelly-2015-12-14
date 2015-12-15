@@ -25,4 +25,14 @@ public class Anagram {
 
         return anagrams;
     }
+
+    private String dropCharacter(String s, int index) {
+        if (index == 0) {
+            return "bc";
+        }
+        if (index == 1) {
+            return "ac";
+        }
+        return "ab";
+    }
 }

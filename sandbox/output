@@ -1,31 +1,19 @@
-Anagram.java:19: error: cannot find symbol
+Anagram.java:19: error: non-static method dropCharacter(String,int) cannot be referenced from a static context
         anagrams.add(s.substring(0, 1) + Anagram.of(dropCharacter(s, 0)).get(0));
                                                     ^
-  symbol:   method dropCharacter(String,int)
-  location: class Anagram
-Anagram.java:20: error: cannot find symbol
+Anagram.java:20: error: non-static method dropCharacter(String,int) cannot be referenced from a static context
         anagrams.add(s.substring(0, 1) + Anagram.of(dropCharacter(s, 0)).get(1));
                                                     ^
-  symbol:   method dropCharacter(String,int)
-  location: class Anagram
-Anagram.java:21: error: cannot find symbol
+Anagram.java:21: error: non-static method dropCharacter(String,int) cannot be referenced from a static context
         anagrams.add(s.substring(1, 2) + Anagram.of(dropCharacter(s, 1)).get(0));
                                                     ^
-  symbol:   method dropCharacter(String,int)
-  location: class Anagram
-Anagram.java:22: error: cannot find symbol
+Anagram.java:22: error: non-static method dropCharacter(String,int) cannot be referenced from a static context
         anagrams.add(s.substring(1, 2) + Anagram.of(dropCharacter(s, 1)).get(1));
                                                     ^
-  symbol:   method dropCharacter(String,int)
-  location: class Anagram
-Anagram.java:23: error: cannot find symbol
+Anagram.java:23: error: non-static method dropCharacter(String,int) cannot be referenced from a static context
         anagrams.add(s.substring(2, 3) + Anagram.of(dropCharacter(s, 2)).get(0));
                                                     ^
-  symbol:   method dropCharacter(String,int)
-  location: class Anagram
-Anagram.java:24: error: cannot find symbol
+Anagram.java:24: error: non-static method dropCharacter(String,int) cannot be referenced from a static context
         anagrams.add(s.substring(2, 3) + Anagram.of(dropCharacter(s, 2)).get(1));
                                                     ^
-  symbol:   method dropCharacter(String,int)
-  location: class Anagram
 6 errors
