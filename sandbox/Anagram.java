@@ -31,9 +31,9 @@ public class Anagram {
             return s.substring(index + 1, s.length());
         }
         if (index == 1) {
-            return s.substring(0, 1) + s.substring(index + 1, s.length());
+            return s.substring(0, index) + s.substring(index + 1, s.length());
         }
-        return s.substring(0, 2);
+        return s.substring(0, index);
     }
 
    
