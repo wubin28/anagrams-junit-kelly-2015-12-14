@@ -26,7 +26,7 @@ public class Anagram {
         return anagrams;
     }
 
-    private String dropCharacter(String s, int index) {
+    private static String dropCharacter(String s, int index) {
         if (index == 0) {
             return "bc";
         }
