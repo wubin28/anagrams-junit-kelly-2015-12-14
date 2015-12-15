@@ -31,7 +31,7 @@ public class Anagram {
             return s.substring(1, 3);
         }
         if (index == 1) {
-            return "ac";
+            return "a" + "c";
         }
         return s.substring(0, 2);
     }
