@@ -33,6 +33,6 @@ public class Anagram {
         if (index == 1) {
             return "ac";
         }
-        return "ab";
+        return s.substring(0, 2);
     }
 }
