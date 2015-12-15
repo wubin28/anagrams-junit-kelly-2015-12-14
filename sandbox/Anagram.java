@@ -13,9 +13,9 @@ public class Anagram {
         }
         return Arrays.asList("a" + Anagram.of("bc").get(0), 
                              "a" + Anagram.of("bc").get(1), 
-                             "b" + "ac", 
-                             "b" + "ca", 
-                             "c" + "ab", 
-                             "c" + "ba");
+                             "b" + Anagram.of("ac").get(0), 
+                             "b" + Anagram.of("ac").get(1), 
+                             "c" + Anagram.of("ab").get(0), 
+                             "c" + Anagram.of("ab").get(1));
     }
 }
