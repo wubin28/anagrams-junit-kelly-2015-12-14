@@ -1,16 +1,7 @@
-AnagramTest.java:10: error: cannot find symbol
-        assertThat(Anagram.of("a"), is(Arrays.asList("a")));
-                          ^
-  symbol:   method of(String)
-  location: class Anagram
-AnagramTest.java:15: error: cannot find symbol
-        assertThat(Anagram.of("ab"), is(Arrays.asList("ab", "ba")));
-                          ^
-  symbol:   method of(String)
-  location: class Anagram
-AnagramTest.java:20: error: cannot find symbol
-        assertThat(Anagram.of("abc"), is(Arrays.asList("abc", "acb", "bac", "bca", "cab", "cba")));
-                          ^
-  symbol:   method of(String)
-  location: class Anagram
-3 errors
+Anagram.java:6: error: <identifier> expected
+    public List<String> static of(String string) {
+                       ^
+Anagram.java:6: error: invalid method declaration; return type required
+    public List<String> static of(String string) {
+                               ^
+2 errors
