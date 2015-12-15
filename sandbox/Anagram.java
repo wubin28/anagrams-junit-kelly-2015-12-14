@@ -15,12 +15,13 @@ public class Anagram {
 
         List<String> anagrams = new ArrayList<String>();
 
-        anagrams.add(s.substring(0, 1) + Anagram.of("bc").get(0));
-        anagrams.add(s.substring(0, 1) + Anagram.of("bc").get(1));
-        anagrams.add(s.substring(1, 2) + Anagram.of("ac").get(0));
-        anagrams.add(s.substring(1, 2) + Anagram.of("ac").get(1));
-        anagrams.add(s.substring(2, 3) + Anagram.of("ab").get(0));
-        anagrams.add(s.substring(2, 3) + Anagram.of("ab").get(1));
+
+        anagrams.add(s.substring(0, 1) + Anagram.of(dropCharacter(s, 0)).get(0));
+        anagrams.add(s.substring(0, 1) + Anagram.of(dropCharacter(s, 0)).get(1));
+        anagrams.add(s.substring(1, 2) + Anagram.of(dropCharacter(s, 1)).get(0));
+        anagrams.add(s.substring(1, 2) + Anagram.of(dropCharacter(s, 1)).get(1));
+        anagrams.add(s.substring(2, 3) + Anagram.of(dropCharacter(s, 2)).get(0));
+        anagrams.add(s.substring(2, 3) + Anagram.of(dropCharacter(s, 2)).get(1));
 
         return anagrams;
     }
