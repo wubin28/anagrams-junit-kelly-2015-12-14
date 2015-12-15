@@ -11,6 +11,11 @@ public class Anagram {
             return Arrays.asList(s.substring(0, 1) + s.substring(1), 
                              s.substring(1) + s.substring(0, 1));
         }
-        return Arrays.asList("abc", "acb", "bac", "bca", "cab", "cba");
+        return Arrays.asList("a" + "bc", 
+                             "a" + "cb", 
+                             "b" + "ac", 
+                             "b" + "ca", 
+                             "c" + "ab", 
+                             "c" + "ba");
     }
 }
